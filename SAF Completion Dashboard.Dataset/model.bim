@@ -1,0 +1,1657 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"AzureSQL - ATDMP\",\"(SQ) Achieve Together Portfolio\",\"(SQ) DimServiceLocationsMapping\",\"(SQ) DimCalendar\",\"SharePoint - CentralReporting-Admin\",\"Data\",\"SharePoint - DataWarehouse\",\"SharePoint List - CentralIntranetGroup\",\"vwEstablishmentHRExtractReport (Latest)\",\"(SQ) - SAF Exports (Source File)\",\"(SQ) FactSingleAssessmentFrmwrk\",\"Sample File\",\"Parameter1\",\"Transform Sample File\",\"Transform File\",\"(SQ) CQC - Locations (Source File)\",\"(SQ) CQC - Locations (Transformations)\",\"(SQ) Establishment from File\",\"Data DWH\",\"vwEstablishmentHRExtractReport (Exc P3)\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.122.746.0 (23.10)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-GB",
+    "cultures": [
+      {
+        "name": "en-GB",
+        "linguisticMetadata": {
+          "content": {
+            "DynamicImprovement": "HighConfidence",
+            "Entities": {
+              "MyMeasure": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": ".MyMeasures"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    ".MyMeasure": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "MyMeasure.value": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": ".MyMeasures",
+                    "ConceptualProperty": "Value"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "value": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "assessment": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "worth": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "price": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "cost": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "charge": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "rate": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "importance": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "significance": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "usefulness": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "consequence": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ]
+              },
+              "mymeasures.vacant": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": ".MyMeasures",
+                    "ConceptualProperty": "%Vacant"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% Empty": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "mymeasures.vacantmomvar": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": ".MyMeasures",
+                    "ConceptualProperty": "%Vacant-MoMVar"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Var to Prev. Month": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "MyMeasure_has_value": {
+                "Binding": {
+                  "ConceptualEntity": ".MyMeasures"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "MyMeasure.value"
+                      },
+                      "Subject": {
+                        "Role": "MyMeasure"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "MyMeasure": {
+                    "Target": {
+                      "Entity": "MyMeasure"
+                    }
+                  },
+                  "MyMeasure.value": {
+                    "Target": {
+                      "Entity": "MyMeasure.value"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "SharePoint - CentralReporting-Admin",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = SharePoint.Files(\"https://achievetogethergroup.sharepoint.com/sites/CentralReporting-Admin\", [ApiVersion = 15])",
+          "in",
+          "    Source"
+        ],
+        "kind": "m",
+        "lineageTag": "243a8b16-6df0-4997-b84c-ef0ccfd730b4",
+        "queryGroup": "Data Sources"
+      },
+      {
+        "name": "AzureSQL - ATDMP",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = Sql.Databases(\"sqlminstanceatprod.public.6ebcd2a481ea.database.windows.net,3342\"),",
+          "    ATDMP = Source{[Name=\"ATDMP\"]}[Data]",
+          "in",
+          "    ATDMP"
+        ],
+        "kind": "m",
+        "lineageTag": "59df7fef-9ed9-4028-a56f-3dbbe9088619",
+        "queryGroup": "Data Sources"
+      },
+      {
+        "name": "(SQ) DimServiceLocationsMapping",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Exception"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = #\"AzureSQL - ATDMP\",",
+          "    dbo_DimServiceLocationsMapping = Source{[Schema=\"dbo\",Item=\"DimServiceLocationsMapping\"]}[Data],",
+          "    #\"Extracted Text Before Delimiter\" = Table.TransformColumns(dbo_DimServiceLocationsMapping, {{\"Head of Operations\", each Text.BeforeDelimiter(_, \" (\"), type text}}),",
+          "    #\"Merged Queries\" = Table.NestedJoin(#\"Extracted Text Before Delimiter\", {\"Title\"}, #\"(SQ) Achieve Together Portfolio\", {\"Title\"}, \"(SQ) Achieve Together Portfolio\", JoinKind.LeftOuter),",
+          "    #\"Expanded (SQ) Achieve Together Portfolio\" = Table.ExpandTableColumn(#\"Merged Queries\", \"(SQ) Achieve Together Portfolio\", {\"FullAddress\", \"CountryOrRegion\", \"State\", \"City\", \"PostalCode\", \"Street\"}, {\"FullAddress\", \"CountryOrRegion\", \"State\", \"City\", \"PostalCode\", \"Street\"}),",
+          "    #\"Replaced Value\" = Table.ReplaceValue(#\"Expanded (SQ) Achieve Together Portfolio\",\"GB\",\"United Kingdom\",Replacer.ReplaceText,{\"CountryOrRegion\"})",
+          "in",
+          "    #\"Replaced Value\""
+        ],
+        "kind": "m",
+        "lineageTag": "65088b59-0033-4468-8523-062c558be65c",
+        "queryGroup": "Staging Queries\\AT Portfolio"
+      },
+      {
+        "name": "(SQ) DimCalendar",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = #\"AzureSQL - ATDMP\",",
+          "    dbo_DimCalendar = Source{[Schema=\"dbo\",Item=\"DimCalendar\"]}[Data],",
+          "    #\"Duplicated Column\" = Table.DuplicateColumn(dbo_DimCalendar, \"CalendarYearMonth\", \"CalendarYearMonth - text\"),",
+          "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Duplicated Column\",{{\"CalendarYearMonth - text\", type text}})",
+          "in",
+          "    #\"Changed Type\""
+        ],
+        "kind": "m",
+        "lineageTag": "67971a2d-cdbc-49ed-a785-7084c745a49f",
+        "queryGroup": "Staging Queries\\Calendar"
+      },
+      {
+        "name": "SharePoint - DataWarehouse",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = SharePoint.Files(\"https://achievetogethergroup.sharepoint.com/sites/DataWarehouse\", [ApiVersion = 15])",
+          "in",
+          "    Source"
+        ],
+        "kind": "m",
+        "lineageTag": "68e7358d-4da1-4dff-a422-48bf4c1a3e01",
+        "queryGroup": "Data Sources"
+      },
+      {
+        "name": "(SQ) Achieve Together Portfolio",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = #\"SharePoint List - CentralIntranetGroup\",",
+          "    #\"fb65a15c-3bc1-4ecb-9d73-b6ba34c9ac88\" = Source{[Id=\"fb65a15c-3bc1-4ecb-9d73-b6ba34c9ac88\"]}[Items],",
+          "    #\"Renamed Columns\" = Table.RenameColumns(#\"fb65a15c-3bc1-4ecb-9d73-b6ba34c9ac88\",{{\"ID\", \"ID.1\"}})",
+          "in",
+          "    #\"Renamed Columns\""
+        ],
+        "kind": "m",
+        "lineageTag": "fbfb24aa-b002-4f08-8f15-950c837f193d",
+        "queryGroup": "Staging Queries\\AT Portfolio"
+      },
+      {
+        "name": "SharePoint List - CentralIntranetGroup",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = SharePoint.Tables(\"https://achievetogethergroup.sharepoint.com/sites/CentralIntranetGroup\", [Implementation=null, ApiVersion=15])",
+          "in",
+          "    Source"
+        ],
+        "kind": "m",
+        "lineageTag": "499fbd45-1afc-466e-9020-ada296fb170b",
+        "queryGroup": "Data Sources"
+      },
+      {
+        "name": "vwEstablishmentHRExtractReport (Latest)",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = #\"AzureSQL - ATDMP\",",
+          "    dbo_vwEstablishmentHRExtractReport = Source{[Schema=\"dbo\",Item=\"vwEstablishmentHRExtractReport\"]}[Data],",
+          "    #\"Merged Queries\" = Table.NestedJoin(dbo_vwEstablishmentHRExtractReport, {\"CalendarMonth\"}, #\"(SQ) DimCalendar\", {\"CalendarYearMonth - text\"}, \"(SQ) DimCalendar\", JoinKind.LeftOuter),",
+          "    #\"Expanded (SQ) DimCalendar\" = Table.ExpandTableColumn(#\"Merged Queries\", \"(SQ) DimCalendar\", {\"Fiscal_Month\"}, {\"Fiscal_Month\"}),",
+          "    #\"Filtered Rows\" = Table.SelectRows(#\"Expanded (SQ) DimCalendar\", each ([Fiscal_Month] = List.Max(#\"Expanded (SQ) DimCalendar\"[Fiscal_Month])))",
+          "in",
+          "    #\"Filtered Rows\""
+        ],
+        "kind": "m",
+        "lineageTag": "bc9479af-8bbd-4722-b16d-03f03cd64321",
+        "queryGroup": "Staging Queries\\Employee Information"
+      },
+      {
+        "name": "(SQ) - SAF Exports (Source File)",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = SharePoint.Files(\"https://achievetogethergroup.sharepoint.com/sites/CentralReporting-Admin/\", [ApiVersion = 15]),",
+          "    #\"Filtered Rows\" = Table.SelectRows(Source, each Text.StartsWith([Name], \"Single Assessment Framework Introduction\")),",
+          "    #\"Filtered Hidden Files1\" = Table.SelectRows(#\"Filtered Rows\", each [Attributes]?[Hidden]? <> true),",
+          "    #\"Invoke Custom Function1\" = Table.AddColumn(#\"Filtered Hidden Files1\", \"Transform File\", each #\"Transform File\"([Content])),",
+          "    #\"Renamed Columns1\" = Table.RenameColumns(#\"Invoke Custom Function1\", {\"Name\", \"Source.Name\"}),",
+          "    #\"Removed Other Columns1\" = Table.SelectColumns(#\"Renamed Columns1\", {\"Source.Name\", \"Transform File\"}),",
+          "    #\"Expanded Table Column1\" = Table.ExpandTableColumn(#\"Removed Other Columns1\", \"Transform File\", Table.ColumnNames(#\"Transform File\"(#\"Sample File\"))),",
+          "    #\"Extracted Text Between Delimiters\" = Table.TransformColumns(#\"Expanded Table Column1\", {{\"Source.Name\", each Text.BetweenDelimiters(_, \" \", \".\", {0, RelativePosition.FromEnd}, 2), type text}}),",
+          "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Extracted Text Between Delimiters\",{{\"Source.Name\", type date}}),",
+          "    #\"Filtered Rows1\" = Table.SelectRows(#\"Changed Type\", each [Source.Name] = List.Max(#\"Changed Type\"[Source.Name])),",
+          "    #\"Trimmed Text\" = Table.TransformColumns(#\"Filtered Rows1\",{{\"Employment Code\", each Text.TrimStart(_,\"0\")}}),",
+          "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Trimmed Text\",{{\"Employment Code\", type text}})",
+          "in",
+          "    #\"Changed Type1\""
+        ],
+        "kind": "m",
+        "lineageTag": "2c5db758-5c7b-4394-99dc-c5f614ae4b9e",
+        "queryGroup": "Staging Queries\\SAF Data"
+      },
+      {
+        "name": "Sample File",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Binary"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = SharePoint.Files(\"https://achievetogethergroup.sharepoint.com/sites/CentralReporting-Admin/\", [ApiVersion = 15]),",
+          "    #\"Filtered Rows\" = Table.SelectRows(Source, each Text.StartsWith([Name], \"Single Assessment Framework Introduction\")),",
+          "    Navigation1 = #\"Filtered Rows\"{0}[Content]",
+          "in",
+          "    Navigation1"
+        ],
+        "kind": "m",
+        "lineageTag": "0472315b-72f2-4c24-a892-739985059362",
+        "queryGroup": "Staging Queries\\SAF Data\\Transform File from (SQ) - SAF Exports (Source File)\\Helper Queries"
+      },
+      {
+        "name": "Parameter1",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Binary"
+          }
+        ],
+        "expression": "#\"Sample File\" meta [IsParameterQuery=true, BinaryIdentifier=#\"Sample File\", Type=\"Binary\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "cd5961ef-e211-440b-be8d-b8032f3a5b56",
+        "queryGroup": "Staging Queries\\SAF Data\\Transform File from (SQ) - SAF Exports (Source File)\\Helper Queries"
+      },
+      {
+        "name": "Transform Sample File",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = Csv.Document(Parameter1,[Delimiter=\",\", Columns=13, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+          "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+          "    #\"Filtered Rows\" = Table.SelectRows(#\"Promoted Headers\", each ([Employment Code] <> \"\")),",
+          "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Filtered Rows\",{{\"Completion Date\", type date}, {\"Due Date\", type date}})",
+          "in",
+          "    #\"Changed Type\""
+        ],
+        "kind": "m",
+        "lineageTag": "a87baafe-2a66-4c04-a531-9b2cac963fb4",
+        "queryGroup": "Staging Queries\\SAF Data\\Transform File from (SQ) - SAF Exports (Source File)"
+      },
+      {
+        "name": "Transform File",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Function"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = (Parameter1 as binary) => let",
+          "    Source = Csv.Document(Parameter1,[Delimiter=\",\", Columns=13, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+          "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+          "    #\"Filtered Rows\" = Table.SelectRows(#\"Promoted Headers\", each ([Employment Code] <> \"\")),",
+          "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Filtered Rows\",{{\"Completion Date\", type date}, {\"Due Date\", type date}})",
+          "in",
+          "    #\"Changed Type\"",
+          "in",
+          "    Source"
+        ],
+        "kind": "m",
+        "lineageTag": "27f8a54b-dc38-453d-8d13-fce43c08bdde",
+        "mAttributes": "[ FunctionQueryBinding = \"{\"\"exemplarFormulaName\"\":\"\"Transform Sample File\"\"}\" ]",
+        "queryGroup": "Staging Queries\\SAF Data\\Transform File from (SQ) - SAF Exports (Source File)\\Helper Queries"
+      },
+      {
+        "name": "(SQ) CQC - Locations (Source File)",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\solomon.brown\\OneDrive - Achieve Together Ltd\\Admin\\Board Reports\\FY 23-24\\07. Sep'23\\Data\\CQC\\Source\\02_October_2023_Latest_ratings.xlsx\"), null, true),",
+          "    Locations_Sheet = Source{[Item=\"Locations\",Kind=\"Sheet\"]}[Data]",
+          "in",
+          "    Locations_Sheet"
+        ],
+        "kind": "m",
+        "lineageTag": "d84673c7-f4ba-4d98-bdb8-03192d574815",
+        "queryGroup": "Staging Queries\\CQC"
+      },
+      {
+        "name": "(SQ) CQC - Locations (Transformations)",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = #\"(SQ) CQC - Locations (Source File)\",",
+          "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+          "    #\"Filtered Rows\" = Table.SelectRows(#\"Promoted Headers\", each ([Domain] = \"Overall\") and ([Brand Name] = \"BRAND Achieve Together\")),",
+          "    #\"Added Custom\" = Table.AddColumn(#\"Filtered Rows\", \"CQC Geo Network\", each if [Location Region] = \"East of England\" then \"London and East of England\" else if [Location Region] = \"London\" then \"London and East of England\" else if [Location Region] = \"Yorkshire and The Humber\" then \"North\" else if [Location Region] = \"West Midlands\" then \"Midlands\" else if [Location Region] = \"East Midlands\" then \"Midlands\" else if [Location Region] = \"North West\" then \"North\" else if [Location Region] = \"North East\" then \"North\" else if [Location Region] = \"South East\" then \"South\" else if [Location Region] = \"South West\" then \"South\" else if [Location Region] = \"Unspecified\" then \"Unspecified\" else null)",
+          "in",
+          "    #\"Added Custom\""
+        ],
+        "kind": "m",
+        "lineageTag": "8bec362a-e352-4e9c-a6e4-6472ccda476d",
+        "queryGroup": "Staging Queries\\CQC"
+      },
+      {
+        "name": "(SQ) Establishment from File",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = SharePoint.Files(\"https://achievetogethergroup.sharepoint.com/sites/CentralReporting-Admin/\", [ApiVersion = 15]),",
+          "    #\"Filtered Rows\" = Table.SelectRows(Source, each Text.StartsWith([Name], \"SAF Completion Dashboard sb\")),",
+          "    #\"SAF Completion Dashboard sb xlsx_https://achievetogethergroup sharepoint com/sites/CentralReporting-Admin/Shared Documents/Admin/Ad-hoc reporting/Misc/\" = #\"Filtered Rows\"{[Name=\"SAF Completion Dashboard sb.xlsx\",#\"Folder Path\"=\"https://achievetogethergroup.sharepoint.com/sites/CentralReporting-Admin/Shared Documents/Admin/Ad-hoc reporting/Misc/\"]}[Content],",
+          "    #\"Imported Excel Workbook\" = Excel.Workbook(#\"SAF Completion Dashboard sb xlsx_https://achievetogethergroup sharepoint com/sites/CentralReporting-Admin/Shared Documents/Admin/Ad-hoc reporting/Misc/\"),",
+          "    Data_Sheet = #\"Imported Excel Workbook\"{[Item=\"Data\",Kind=\"Sheet\"]}[Data],",
+          "    #\"Promoted Headers\" = Table.PromoteHeaders(Data_Sheet, [PromoteAllScalars=true]),",
+          "    #\"Removed Columns\" = Table.RemoveColumns(#\"Promoted Headers\",{\"Completion Status\", \"Completed\", \"Outstanding\", \"Column16\"})",
+          "in",
+          "    #\"Removed Columns\""
+        ],
+        "kind": "m",
+        "lineageTag": "51fb75ca-d745-40e7-9832-6ba88fc470fb",
+        "queryGroup": "Staging Queries\\Establishment - File"
+      },
+      {
+        "name": "vwEstablishmentHRExtractReport (Exc P3)",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = #\"vwEstablishmentHRExtractReport (Latest)\",",
+          "    #\"Filtered Rows\" = Table.SelectRows(Source, each ([Area] <> \"Portfolio 3\"))",
+          "in",
+          "    #\"Filtered Rows\""
+        ],
+        "kind": "m",
+        "lineageTag": "6d132291-709f-4f3c-9902-f6fca955f50c",
+        "queryGroup": "Staging Queries\\Employee Information"
+      },
+      {
+        "name": "(SQ) FactSingleAssessmentFrmwrk",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = #\"AzureSQL - ATDMP\",",
+          "    dbo_FactSingleAssessmentFrmwrk = Source{[Schema=\"dbo\",Item=\"FactSingleAssessmentFrmwrk\"]}[Data],",
+          "    #\"Trimmed Text\" = Table.TransformColumns(dbo_FactSingleAssessmentFrmwrk,{{\"EmployeeNumber\", each Text.TrimStart(_,\"0\"), type text}})",
+          "in",
+          "    #\"Trimmed Text\""
+        ],
+        "kind": "m",
+        "lineageTag": "8ee72eb8-c599-4d3a-8e54-79fa3fd8ce59",
+        "queryGroup": "Staging Queries\\SAF Data"
+      },
+      {
+        "name": "Data DWH",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Exception"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = #\"vwEstablishmentHRExtractReport (Exc P3)\",",
+          "    #\"Merged Queries\" = Table.NestedJoin(Source, {\"EmployeeNumber\"}, #\"(SQ) - SAF Exports (Source File)\", {\"Employment Code\"}, \"(SQ) - SAF Exports (Source File)\", JoinKind.LeftOuter),",
+          "    #\"Expanded (SQ) - SAF Exports (Source File)\" = Table.ExpandTableColumn(#\"Merged Queries\", \"(SQ) - SAF Exports (Source File)\", {\"Completion Status\"}, {\"Completion Status\"}),",
+          "    #\"Merged Queries1\" = Table.NestedJoin(#\"Expanded (SQ) - SAF Exports (Source File)\", {\"Facility Code\"}, #\"(SQ) DimServiceLocationsMapping\", {\"Facility Code\"}, \"(SQ) DimServiceLocationsMapping\", JoinKind.LeftOuter),",
+          "    #\"Expanded (SQ) DimServiceLocationsMapping\" = Table.ExpandTableColumn(#\"Merged Queries1\", \"(SQ) DimServiceLocationsMapping\", {\"Regulator ID\"}, {\"Regulator ID\"}),",
+          "    #\"Merged Queries2\" = Table.NestedJoin(#\"Expanded (SQ) DimServiceLocationsMapping\", {\"Regulator ID\"}, #\"(SQ) CQC - Locations (Transformations)\", {\"Location ID\"}, \"(SQ) CQC - Locations (Transformations)\", JoinKind.LeftOuter),",
+          "    #\"Expanded (SQ) CQC - Locations (Transformations)\" = Table.ExpandTableColumn(#\"Merged Queries2\", \"(SQ) CQC - Locations (Transformations)\", {\"CQC Geo Network\"}, {\"CQC Geo Network\"}),",
+          "    #\"Merged Queries3\" = Table.NestedJoin(#\"Expanded (SQ) CQC - Locations (Transformations)\", {\"Facility Code\"}, #\"(SQ) DimServiceLocationsMapping\", {\"Facility Code\"}, \"(SQ) DimServiceLocationsMapping\", JoinKind.LeftOuter),",
+          "    #\"Expanded (SQ) DimServiceLocationsMapping1\" = Table.ExpandTableColumn(#\"Merged Queries3\", \"(SQ) DimServiceLocationsMapping\", {\"Head of Operations\", \"Regional Manager\"}, {\"Head of Operations\", \"Regional Manager.1\"})",
+          "in",
+          "    #\"Expanded (SQ) DimServiceLocationsMapping1\""
+        ],
+        "kind": "m",
+        "lineageTag": "7b862998-79f0-437a-ad4b-0bbfc374d73a",
+        "queryGroup": "Final Queries"
+      }
+    ],
+    "queryGroups": [
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ],
+        "folder": "Data Sources"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "1"
+          }
+        ],
+        "folder": "Staging Queries"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "2"
+          }
+        ],
+        "folder": "Final Queries"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "1"
+          }
+        ],
+        "folder": "Staging Queries\\AT Portfolio"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "2"
+          }
+        ],
+        "folder": "Staging Queries\\Calendar"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "5"
+          }
+        ],
+        "folder": "Staging Queries\\Employee Information"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "6"
+          }
+        ],
+        "folder": "Staging Queries\\SAF Data"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ],
+        "folder": "Staging Queries\\SAF Data\\Transform File from (SQ) - SAF Exports (Source File)"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ],
+        "folder": "Staging Queries\\SAF Data\\Transform File from (SQ) - SAF Exports (Source File)\\Helper Queries"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "7"
+          }
+        ],
+        "folder": "Staging Queries\\CQC"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "8"
+          }
+        ],
+        "folder": "Staging Queries\\Establishment - File"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "b4783600-fdda-4599-ad74-44af588a2ba1",
+        "fromColumn": "UpdatedTimeStamp",
+        "fromTable": "Data",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_89d17220-d50b-430f-9e73-4a393eb26a39"
+      }
+    ],
+    "sourceQueryCulture": "en-GB",
+    "tables": [
+      {
+        "name": "DateTableTemplate_ebb72b7f-8d8b-444f-b7e5-b59a2156bb8f",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "5d12314d-bd61-44bb-b5ef-c97d9e10f038",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "e2be2f05-7346-401c-870c-c359649cc9b6",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "1defd52c-fd17-43e3-842b-866853e1ad41",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "42dd5557-7cf3-424e-82d0-65df6e0e269c",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "fddeb975-6595-4b59-a796-dec10c92206f",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "92c8b7e1-f201-418c-9707-00285f164342",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "216467f7-bb6a-43c7-b755-8f8513b18d55",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "8871db26-acd6-42fd-b00f-df95c6b57226",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "e4f9c77e-7f09-4ba4-a26b-784f187e46e5",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "53bb5e14-656e-4b78-8103-00f7f5ac6603",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "8f1cec3e-1a8b-4a7f-b5e9-5fbf80105d2c",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "08820772-c545-4008-a78f-a5d4fb6a2917"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "2443944f-7ad6-43ba-8c7f-d7f5372f1dd2",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_ebb72b7f-8d8b-444f-b7e5-b59a2156bb8f-b249623e-967c-4a4d-ba14-0ca52f6a1341",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": ".MyMeasures",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "a6fa4b470a1a43e684efd0af495e17fc"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Value",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "bcaa771f-d0cc-437b-a602-2bc046051e22",
+            "sourceColumn": "[Value]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "04efacd0-2614-4127-9861-2f0afe8411e6",
+        "measures": [
+          {
+            "name": "Now",
+            "expression": "NOW()",
+            "formatString": "General Date",
+            "lineageTag": "ae6fa6ed-b1ac-4837-86fa-4d02fc97f745"
+          },
+          {
+            "name": "User",
+            "expression": "USERPRINCIPALNAME()",
+            "lineageTag": "fe683185-a1c2-41ad-93a1-310c4acf85ea"
+          },
+          {
+            "name": "Info",
+            "expression": "\"Logged in User:\" && [User] && \"Last Refresh Date/Time:\" && [Now] && \"Dashboard Version: v0.0.1\"",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "79b3aa7c-ef1d-4ab6-b5e9-38f91f641c16"
+          },
+          {
+            "name": "# Assigned",
+            "expression": "DISTINCTCOUNTNOBLANK(Data[Personal Reference])",
+            "formatString": "0",
+            "lineageTag": "90d6d964-4947-41b0-be0d-52c9d5b5b5ca"
+          },
+          {
+            "name": "# Completed",
+            "expression": "CALCULATE([# Assigned], Data[Completion Status] = \"Completed\")",
+            "formatString": "0",
+            "lineageTag": "401111b1-fd79-497b-a7b4-48bacf5b8705"
+          },
+          {
+            "name": "% Completed",
+            "expression": "[# Completed]/[# Assigned]",
+            "formatString": "0%;-0%;0%",
+            "lineageTag": "03900b02-c211-4916-8b43-b9ae9f55d3b0"
+          },
+          {
+            "name": "# Not Yet Completed",
+            "expression": [
+              "",
+              "    ",
+              "VAR Calc = CALCULATE([# Assigned], Data[Completion Status] <> \"Completed\")",
+              "",
+              "RETURN",
+              "IF(ISBLANK(Calc),0,Calc)"
+            ],
+            "formatString": "0",
+            "lineageTag": "5a9d1b75-240e-41a5-88cd-4bb4a37cd1f7"
+          },
+          {
+            "name": "HoA Rank",
+            "expression": [
+              "",
+              "RANKX(",
+              "    FILTER(ALL(Data[Head of Area]), NOT(ISBLANK(Data[Head of Area]))),",
+              "    [% Completed],",
+              "    ,",
+              "    DESC",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "18517519-d8c5-44ad-80f0-804f00b9d21f"
+          },
+          {
+            "name": "RM Rank",
+            "expression": [
+              "",
+              "RANKX(",
+              "    FILTER(ALL(Data[Regional Manager]), NOT(ISBLANK(Data[Regional Manager]))),",
+              "    [% Completed],",
+              "    ,",
+              "    DESC",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "08540683-39fe-4ce3-8926-948fcc691239"
+          },
+          {
+            "name": "DWH # Assigned",
+            "expression": "DISTINCTCOUNTNOBLANK('Data DWH'[EmployeeNumber])",
+            "formatString": "0",
+            "lineageTag": "e55ba812-11de-4c81-aee4-95c3c6b11bf8"
+          },
+          {
+            "name": "DWH # Completed",
+            "expression": "CALCULATE([DWH # Assigned], 'Data DWH'[Completion Status] = \"Completed\")",
+            "formatString": "0",
+            "lineageTag": "0a307ddb-e073-416e-a0f8-e941781b8562"
+          },
+          {
+            "name": "DWH # Not Yet Completed",
+            "expression": [
+              "",
+              "    ",
+              "VAR Calc = CALCULATE([DWH # Assigned], 'Data DWH'[Completion Status] <> \"Completed\")",
+              "",
+              "RETURN",
+              "IF(ISBLANK(Calc),0,Calc)"
+            ],
+            "formatString": "0",
+            "lineageTag": "278d34cf-b7f2-4e34-b82b-ba73fcf81355"
+          },
+          {
+            "name": "DWH HoA Rank",
+            "expression": [
+              "",
+              "RANKX(",
+              "    FILTER(ALL('Data DWH'[Head of Operations]), NOT(ISBLANK('Data DWH'[Head of Operations]))),",
+              "    [% Completed],",
+              "    ,",
+              "    DESC",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "58eafd6f-9c09-416d-893a-b9c04a54a8fe"
+          },
+          {
+            "name": "DWH RM Rank",
+            "expression": [
+              "",
+              "RANKX(",
+              "    FILTER(ALL('Data DWH'[Regional Manager]), NOT(ISBLANK('Data DWH'[Regional Manager]))),",
+              "    [% Completed],",
+              "    ,",
+              "    DESC",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "b1cc7d96-8242-4d0f-8a55-04bf5fa9c43d"
+          }
+        ],
+        "partitions": [
+          {
+            "name": ".MyMeasures-1c9e605a-78f6-4aa4-8493-86e5705fad23",
+            "mode": "import",
+            "source": {
+              "expression": "{BLANK()}",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Data",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Regional Manager",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ea705092-aca3-4a48-92a8-e6cf7522f121",
+            "sourceColumn": "Regional Manager",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Surname",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4316b7c1-9c7f-4583-967e-419bb1953cac",
+            "sourceColumn": "Surname",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CQC Geo Network",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ad8a685e-2a15-4682-96cd-444b350fb87c",
+            "sourceColumn": "CQC Geo Network",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Personal Reference",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b2bf78c0-1bf2-4251-a034-cb64a51ab37d",
+            "sourceColumn": "Personal Reference",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Forename",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "74902052-c3bc-4d73-b3dd-afaed1a93ea2",
+            "sourceColumn": "Forename",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Position",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "eee5cfc2-4fe3-47fe-83f5-aa21c342b381",
+            "sourceColumn": "Position",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Structure Level 3",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8a01a2f2-3e74-417d-a8c4-479e9760cacb",
+            "sourceColumn": "Structure Level 3",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Structure Level 4",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "624e5854-ed64-4b19-906b-c1d11d72b903",
+            "sourceColumn": "Structure Level 4",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Structure Level 5",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "59db4de4-2abc-4797-965d-9bb71d818967",
+            "sourceColumn": "Structure Level 5",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Structure Level 6",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "fdd7a1c0-d1b9-4644-abce-637acaf2b69d",
+            "sourceColumn": "Structure Level 6",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Reporting Unit",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "57217623-74f2-470b-93e2-ce3db5cec103",
+            "sourceColumn": "Reporting Unit",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Head of Area",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "abbdb9a7-db65-4035-bb3a-ada0de4e11fa",
+            "sourceColumn": "Head of Area",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Completion Status",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "77d22ef9-6d7b-4ac5-913b-6bd58ac9bd1f",
+            "sourceColumn": "Completion Status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "UpdatedTimeStamp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "35cb35ef-54a3-456b-b79f-7fd7672e83b8",
+            "sourceColumn": "UpdatedTimeStamp",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Date Hierarchy",
+                  "table": "LocalDateTable_89d17220-d50b-430f-9e73-4a393eb26a39"
+                },
+                "isDefault": true,
+                "relationship": "b4783600-fdda-4599-ad74-44af588a2ba1"
+              }
+            ]
+          },
+          {
+            "name": "SourceFilename",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "62e0c519-cd93-46f2-9695-3754717eb35b",
+            "sourceColumn": "SourceFilename",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "763b5f9f-cad1-4d9a-904c-6d9c65cd84d5",
+        "partitions": [
+          {
+            "name": "Data",
+            "mode": "import",
+            "queryGroup": "Final Queries",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = #\"(SQ) Establishment from File\",",
+                "    #\"Merged Queries\" = Table.NestedJoin(Source, {\"Personal Reference\"}, #\"(SQ) FactSingleAssessmentFrmwrk\", {\"EmployeeNumber\"}, \"(SQ) - SAF Exports (Source File)\", JoinKind.LeftOuter),",
+                "    #\"Expanded (SQ) - SAF Exports (Source File)\" = Table.ExpandTableColumn(#\"Merged Queries\", \"(SQ) - SAF Exports (Source File)\", {\"Completion_Status\", \"UpdatedTimeStamp\", \"SourceFilename\"}, {\"Completion_Status\", \"UpdatedTimeStamp\", \"SourceFilename\"}),",
+                "    #\"Replaced Value\" = Table.ReplaceValue(#\"Expanded (SQ) - SAF Exports (Source File)\",\"\",null,Replacer.ReplaceValue,{\"Head of Area\"}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Replaced Value\",{{\"Completion_Status\", \"Completion Status\"}})",
+                "in",
+                "    #\"Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_89d17220-d50b-430f-9e73-4a393eb26a39",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "6898e3af-07f7-40fa-b0af-ed1291d6861f",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "b4a08f23-0979-456c-8e81-2dc88a6d3c71",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "2d683e49-03d4-4d46-9cfe-367038a57128",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "2191c981-1f20-4cd2-b937-7425799f3246",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "3e08f8d2-f927-4dcf-a6f8-5b66da4812e8",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "d8f90c81-a7df-43c6-ba55-7f882a62fb4e",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "56d47464-7170-48b7-93af-56e95f1f91f9",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "2d907360-3f2a-4727-9e06-e6b60547a6e8",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "159069e4-eb55-49bb-9a81-2512648b6f33",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "1915b179-5380-489a-a13b-72d56eb9b248",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "db5994f0-d1fd-4fc0-9a0d-76546963be1a",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "7586f0f2-92aa-403b-b29c-6f2d7afe78e1"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "9cfc9c2b-1fc2-4e2e-abf6-5d4c569d2f0d",
+        "partitions": [
+          {
+            "name": "LocalDateTable_89d17220-d50b-430f-9e73-4a393eb26a39",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('Data'[UpdatedTimeStamp])), 1, 1), Date(Year(MAX('Data'[UpdatedTimeStamp])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      }
+    ]
+  }
+}
